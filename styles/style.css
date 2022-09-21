@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+/* ============
+ Reset
+============ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1, p {
+    margin: 0;
+}
+
+
+/* ============
+ Typography
+============ */
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.64rem;
+    color: #2B283A;
+    line-height: 1.5;
+}
+
+.nav-title {
+    font-size: 0.885rem;
+    font-weight: 500;
+    color: white;
+}
+
+.card-location {
+    text-transform: uppercase;
+}
+
+.card-location i {
+    color: red;
+}
+
+.card-map-url {
+    color: #918E9B;
+}
+
+.card-title {
+    font-size: 1.5625rem;    
+}
+
+.card-dates {
+    font-weight: 700;
+}
+
+
+/* ============
+ Layout
+============ */
+
+.nav {
+    background: #F55A5A;
+    padding: 1rem;
+}
+
+.nav-title {
+    text-align: center;
+}
+
+.nav-title i {
+    margin-right: 7px;
+}
+
+.cards {
+    padding: 2.75rem 2.5rem;
+}
+
+.card {
+    display: flex;
+    padding: 1.125rem 0;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.card:first-child {
+    padding-top: 0;
+}
+
+.card-image {
+    width: 125px;    
+    flex-shrink: 0;
+}
+
+.card-image img {
+    height: 168px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-body {
+    padding: 1rem 1.1875rem 0;
+}
+
+.card-location {
+    display: inline-block;
+    margin-right: 0.75rem;
+}
+
+.card-title {
+    margin: 5px 0;
+}
+
+.card-description {
+    margin-top: .5em;
+}
