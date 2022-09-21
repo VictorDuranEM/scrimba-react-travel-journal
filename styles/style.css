@@ -64,6 +64,11 @@ body {
  Layout
 ============ */
 
+body {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
 .nav {
     background: #F55A5A;
     padding: 1rem;
